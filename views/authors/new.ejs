@@ -1,0 +1,16 @@
+<div class="container">
+    <h2>New Author</h2>
+    <br>
+    <div class="container">
+        <form action="/authors" method="POSt">
+            <%- include('./_form_fields.ejs') %>
+            <br>
+            <div class="form-group float-right">
+                <button class="btn btn-danger text-white">
+                    <a href="/authors" class="text-reset">Cancel</a>
+                </button>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
